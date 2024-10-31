@@ -1,7 +1,7 @@
-package com.heinlin.thenotesapp.repository
+package com.heinlin.noteapp.repository
 
-import com.heinlin.thenotesapp.database.NoteDatabase
-import com.heinlin.thenotesapp.model.Note
+import com.heinlin.noteapp.database.NoteDatabase
+import com.heinlin.noteapp.model.Note
 
 class NoteRepository(private val db: NoteDatabase) {
 

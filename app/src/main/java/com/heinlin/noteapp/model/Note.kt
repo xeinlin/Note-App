@@ -1,4 +1,4 @@
-package com.heinlin.thenotesapp.model
+package com.heinlin.noteapp.model
 
 import android.os.Parcelable
 import androidx.room.Entity

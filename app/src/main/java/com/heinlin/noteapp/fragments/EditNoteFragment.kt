@@ -1,4 +1,4 @@
-package com.heinlin.thenotesapp.fragments
+package com.heinlin.noteapp.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,11 +15,11 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
-import com.heinlin.thenotesapp.MainActivity
-import com.heinlin.thenotesapp.R
-import com.heinlin.thenotesapp.databinding.FragmentEditNoteBinding
-import com.heinlin.thenotesapp.model.Note
-import com.heinlin.thenotesapp.viewmodel.NoteViewModel
+import com.heinlin.noteapp.MainActivity
+import com.heinlin.noteapp.R
+import com.heinlin.noteapp.databinding.FragmentEditNoteBinding
+import com.heinlin.noteapp.model.Note
+import com.heinlin.noteapp.viewmodel.NoteViewModel
 
 
 class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider {

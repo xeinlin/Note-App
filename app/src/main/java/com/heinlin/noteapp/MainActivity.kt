@@ -1,12 +1,12 @@
-package com.heinlin.thenotesapp
+package com.heinlin.noteapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.heinlin.thenotesapp.database.NoteDatabase
-import com.heinlin.thenotesapp.repository.NoteRepository
-import com.heinlin.thenotesapp.viewmodel.NoteViewModel
-import com.heinlin.thenotesapp.viewmodel.NoteViewModelFactory
+import com.heinlin.noteapp.database.NoteDatabase
+import com.heinlin.noteapp.repository.NoteRepository
+import com.heinlin.noteapp.viewmodel.NoteViewModel
+import com.heinlin.noteapp.viewmodel.NoteViewModelFactory
 
 class MainActivity : AppCompatActivity() {
 

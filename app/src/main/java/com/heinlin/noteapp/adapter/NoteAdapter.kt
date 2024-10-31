@@ -1,4 +1,4 @@
-package com.heinlin.thenotesapp.adapter
+package com.heinlin.noteapp.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,9 +6,9 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.heinlin.thenotesapp.databinding.NoteLayoutBinding
-import com.heinlin.thenotesapp.fragments.HomeFragmentDirections
-import com.heinlin.thenotesapp.model.Note
+import com.heinlin.noteapp.databinding.NoteLayoutBinding
+import com.heinlin.noteapp.fragments.HomeFragmentDirections
+import com.heinlin.noteapp.model.Note
 
 class NoteAdapter : RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {
 

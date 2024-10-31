@@ -1,4 +1,4 @@
-package com.heinlin.thenotesapp
+package com.heinlin.noteapp
 
 import org.junit.Test
 

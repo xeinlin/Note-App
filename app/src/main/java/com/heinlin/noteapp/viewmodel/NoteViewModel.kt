@@ -1,10 +1,10 @@
-package com.heinlin.thenotesapp.viewmodel
+package com.heinlin.noteapp.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.heinlin.thenotesapp.model.Note
-import com.heinlin.thenotesapp.repository.NoteRepository
+import com.heinlin.noteapp.model.Note
+import com.heinlin.noteapp.repository.NoteRepository
 import kotlinx.coroutines.launch
 
 class NoteViewModel(app: Application, private val noteRepository: NoteRepository) :
